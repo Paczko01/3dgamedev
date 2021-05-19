@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637568702512535084
-    m_Hash: 2737862671
+      ticks: 637569329285202948
+    m_Hash: 1859913576
   m_LockFileStatus:
     m_FilePath: C:/Users/Patrik/unity/bomberman/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637568702512624851
-    m_Hash: 1471678841
+      ticks: 637569329285250120
+    m_Hash: 178202182
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Patrik/unity/bomberman/Packages
 m_EditorVersion: 2021.1.7f1 (d91830b65d9b)
 m_ResolvedPackages:
-- packageId: com.unity.cinemachine@2.3.4
+- packageId: com.unity.cinemachine@2.7.3
   testable: 0
   isDirectDependency: 1
-  version: 2.3.4
+  version: 2.7.3
   source: 1
-  resolvedPath: C:\Users\Patrik\unity\bomberman\Library\PackageCache\com.unity.cinemachine@2.3.4
+  resolvedPath: C:\Users\Patrik\unity\bomberman\Library\PackageCache\com.unity.cinemachine@2.7.3
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -37,9 +37,11 @@ m_ResolvedPackages:
     url: 
   category: cinematography
   type: 
-  description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE: If
-    you are upgrading from the Asset Store version of Cinemachine, delete the Cinemachine
-    asset from your project BEFORE installing this version from the Package Manager."
+  description: "Smart camera tools for passionate creators. \n\nNew starting from
+    2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
+    menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
+    of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
+    this version from the Package Manager."
   status: 4
   errors: []
   versions:
@@ -127,13 +129,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 636942204440000000
+  datePublishedTicks: 637523735910000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/upm-package-cinemachine
-    revision: 679387cb1fa822190b530bdbb8ea0945f508b5f6
+    url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: 51de586ba6f144b9e90ff52a72d14fb208acf1a8
     path: 
   unityLifecycle:
     version: 2.7.3
@@ -454,12 +456,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.3
     nextVersion: 
-- packageId: com.unity.postprocessing@2.2.2
+- packageId: com.unity.postprocessing@3.1.0
   testable: 0
   isDirectDependency: 1
-  version: 2.2.2
+  version: 3.1.0
   source: 1
-  resolvedPath: C:\Users\Patrik\unity\bomberman\Library\PackageCache\com.unity.postprocessing@2.2.2
+  resolvedPath: C:\Users\Patrik\unity\bomberman\Library\PackageCache\com.unity.postprocessing@3.1.0
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -511,8 +513,12 @@ m_ResolvedPackages:
     compatible:
     - 3.1.0
     verified: 3.1.0
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -526,13 +532,13 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637099634730000000
+  datePublishedTicks: 637504209320000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git@github.com:Unity-Technologies/PostProcessing.git
-    revision: b6809207bc66a115aca0c8b385cbc69a1bd37f80
+    url: git+https://github.com/Unity-Technologies/Graphics.git
+    revision: c3233d84609fb4c1da8b0f1ea07d0b6c75f8c114
     path: 
   unityLifecycle:
     version: 3.1.0

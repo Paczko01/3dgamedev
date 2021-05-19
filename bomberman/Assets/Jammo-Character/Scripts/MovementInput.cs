@@ -22,6 +22,7 @@ public class MovementInput : MonoBehaviour {
 	public Camera cam;
 	public CharacterController controller;
 	public bool isGrounded;
+	public bool hasbomb;
 
     [Header("Animation Smoothing")]
     [Range(0, 1f)]
@@ -35,9 +36,12 @@ public class MovementInput : MonoBehaviour {
 
     public float verticalVel;
     private Vector3 moveVector;
+	[SerializeField] private GameObject BombPrefab;
+	[SerializeField] private Transform Bombtransform;
 
 	// Use this for initialization
 	void Start () {
+		hasbomb = true;
 		anim = this.GetComponent<Animator> ();
 		cam = Camera.main;
 		controller = this.GetComponent<CharacterController> ();
@@ -56,13 +60,27 @@ public class MovementInput : MonoBehaviour {
         {
             verticalVel -= 1;
         }
+        
         moveVector = new Vector3(0, verticalVel * .2f * Time.deltaTime, 0);
-        controller.Move(moveVector);
+		controller.Move(moveVector);
+		if (Input.GetKeyDown(KeyCode.Space)&& hasbomb)
+		{
+			Vector3 bombpos = Bombtransform.position;
+			hasbomb = false;
+			//bombpos.x =1.5f* Mathf.RoundToInt(bombpos.x / 1.5f);
+			//bombpos.z =1.5f * Mathf.RoundToInt(bombpos.z/ 1.5f);
+			Invoke("setboolback", 3f);
+			GameObject bombClone = Instantiate(BombPrefab, bombpos, Bombtransform.rotation);
+			Destroy(bombClone,3f);
+		}
 
+	}
 
+	private void setboolback()
+    {
+		hasbomb = true;
     }
-
-    void PlayerMoveAndRotation() {
+	void PlayerMoveAndRotation() {
 		InputX = Input.GetAxis ("Horizontal");
 		InputZ = Input.GetAxis ("Vertical");
 

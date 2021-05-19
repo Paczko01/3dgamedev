@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 18294516}
   - component: {fileID: 18294515}
   m_Layer: 0
-  m_Name: Breakable_Wall (53)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 20629802}
   - component: {fileID: 20629801}
   m_Layer: 0
-  m_Name: Wall5 (51)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 21994159}
   - component: {fileID: 21994158}
   m_Layer: 0
-  m_Name: Breakable_Wall (44)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 38011365}
   - component: {fileID: 38011364}
   m_Layer: 0
-  m_Name: Wall5 (4)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 41534627}
   - component: {fileID: 41534626}
   m_Layer: 0
-  m_Name: Breakable_Wall (95)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -733,7 +733,10 @@ MonoBehaviour:
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
+    ModeOverride: 0
     LensShift: {x: 0, y: 0}
+    GateFit: 0
+    m_SensorSize: {x: 1.0970266, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -749,7 +752,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46016744}
-  m_LocalRotation: {x: 0.25082457, y: 0.5963154, z: -0.2035261, w: 0.734896}
+  m_LocalRotation: {x: 0.09933914, y: 0.6485173, z: -0.08592241, w: 0.7497829}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -770,7 +773,7 @@ GameObject:
   - component: {fileID: 51635115}
   - component: {fileID: 51635114}
   m_Layer: 0
-  m_Name: Breakable_Wall (96)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -866,7 +869,7 @@ GameObject:
   - component: {fileID: 54009338}
   - component: {fileID: 54009337}
   m_Layer: 0
-  m_Name: Breakable_Wall (12)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1010,7 +1013,7 @@ GameObject:
   - component: {fileID: 64404687}
   - component: {fileID: 64404686}
   m_Layer: 0
-  m_Name: Breakable_Wall (99)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,7 +1109,7 @@ GameObject:
   - component: {fileID: 81389780}
   - component: {fileID: 81389779}
   m_Layer: 0
-  m_Name: Breakable_Wall (79)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1202,7 +1205,7 @@ GameObject:
   - component: {fileID: 109710842}
   - component: {fileID: 109710841}
   m_Layer: 0
-  m_Name: Wall5 (12)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1298,7 +1301,7 @@ GameObject:
   - component: {fileID: 127603565}
   - component: {fileID: 127603564}
   m_Layer: 0
-  m_Name: Breakable_Wall (122)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1394,7 +1397,7 @@ GameObject:
   - component: {fileID: 152732291}
   - component: {fileID: 152732290}
   m_Layer: 0
-  m_Name: Breakable_Wall (76)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1490,7 +1493,7 @@ GameObject:
   - component: {fileID: 157795258}
   - component: {fileID: 157795257}
   m_Layer: 0
-  m_Name: Wall5 (62)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1586,7 +1589,7 @@ GameObject:
   - component: {fileID: 158191551}
   - component: {fileID: 158191550}
   m_Layer: 0
-  m_Name: Breakable_Wall (75)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1682,7 +1685,7 @@ GameObject:
   - component: {fileID: 164814985}
   - component: {fileID: 164814984}
   m_Layer: 0
-  m_Name: Wall5 (42)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1778,7 +1781,7 @@ GameObject:
   - component: {fileID: 188721729}
   - component: {fileID: 188721728}
   m_Layer: 0
-  m_Name: Breakable_Wall (81)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1874,7 +1877,7 @@ GameObject:
   - component: {fileID: 198364266}
   - component: {fileID: 198364265}
   m_Layer: 0
-  m_Name: Breakable_Wall (104)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1970,7 +1973,7 @@ GameObject:
   - component: {fileID: 200006922}
   - component: {fileID: 200006921}
   m_Layer: 0
-  m_Name: Breakable_Wall (40)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2066,7 +2069,7 @@ GameObject:
   - component: {fileID: 200065828}
   - component: {fileID: 200065827}
   m_Layer: 0
-  m_Name: Breakable_Wall (110)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2162,7 +2165,7 @@ GameObject:
   - component: {fileID: 215977504}
   - component: {fileID: 215977503}
   m_Layer: 0
-  m_Name: Wall5 (23)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2258,7 +2261,7 @@ GameObject:
   - component: {fileID: 219520283}
   - component: {fileID: 219520282}
   m_Layer: 0
-  m_Name: Breakable_Wall (7)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2354,7 +2357,7 @@ GameObject:
   - component: {fileID: 222072693}
   - component: {fileID: 222072692}
   m_Layer: 0
-  m_Name: Wall5 (3)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2450,7 +2453,7 @@ GameObject:
   - component: {fileID: 224555801}
   - component: {fileID: 224555800}
   m_Layer: 0
-  m_Name: Breakable_Wall (117)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2626,7 +2629,7 @@ RectTransform:
   m_Children:
   - {fileID: 32187759}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2646,7 +2649,7 @@ GameObject:
   - component: {fileID: 233519978}
   - component: {fileID: 233519977}
   m_Layer: 0
-  m_Name: Breakable_Wall (66)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2742,7 +2745,7 @@ GameObject:
   - component: {fileID: 254008753}
   - component: {fileID: 254008752}
   m_Layer: 0
-  m_Name: Breakable_Wall (112)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2838,7 +2841,7 @@ GameObject:
   - component: {fileID: 263069914}
   - component: {fileID: 263069913}
   m_Layer: 0
-  m_Name: Breakable_Wall (101)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2934,7 +2937,7 @@ GameObject:
   - component: {fileID: 263136179}
   - component: {fileID: 263136178}
   m_Layer: 0
-  m_Name: Breakable_Wall (106)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3030,7 +3033,7 @@ GameObject:
   - component: {fileID: 267667526}
   - component: {fileID: 267667525}
   m_Layer: 0
-  m_Name: Breakable_Wall (43)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3126,7 +3129,7 @@ GameObject:
   - component: {fileID: 273723885}
   - component: {fileID: 273723884}
   m_Layer: 0
-  m_Name: Breakable_Wall (85)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3222,7 +3225,7 @@ GameObject:
   - component: {fileID: 276842254}
   - component: {fileID: 276842253}
   m_Layer: 0
-  m_Name: Breakable_Wall (36)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3318,7 +3321,7 @@ GameObject:
   - component: {fileID: 288880380}
   - component: {fileID: 288880379}
   m_Layer: 0
-  m_Name: Breakable_Wall (130)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3414,7 +3417,7 @@ GameObject:
   - component: {fileID: 307151571}
   - component: {fileID: 307151570}
   m_Layer: 0
-  m_Name: Wall5 (13)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3510,7 +3513,7 @@ GameObject:
   - component: {fileID: 314894262}
   - component: {fileID: 314894261}
   m_Layer: 0
-  m_Name: Breakable_Wall (119)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3606,7 +3609,7 @@ GameObject:
   - component: {fileID: 320684945}
   - component: {fileID: 320684944}
   m_Layer: 0
-  m_Name: Breakable_Wall (1)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3702,7 +3705,7 @@ GameObject:
   - component: {fileID: 322346320}
   - component: {fileID: 322346319}
   m_Layer: 0
-  m_Name: Wall5 (7)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4056,6 +4059,7 @@ MonoBehaviour:
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
     Value: 180
+    m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
@@ -4100,7 +4104,7 @@ GameObject:
   - component: {fileID: 355374523}
   - component: {fileID: 355374522}
   m_Layer: 0
-  m_Name: Breakable_Wall (32)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4196,7 +4200,7 @@ GameObject:
   - component: {fileID: 356253055}
   - component: {fileID: 356253054}
   m_Layer: 0
-  m_Name: Wall5 (34)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4292,7 +4296,7 @@ GameObject:
   - component: {fileID: 358094204}
   - component: {fileID: 358094203}
   m_Layer: 0
-  m_Name: Wall5 (40)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4484,7 +4488,7 @@ GameObject:
   - component: {fileID: 372438311}
   - component: {fileID: 372438310}
   m_Layer: 0
-  m_Name: Wall5 (61)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4613,7 +4617,7 @@ GameObject:
   - component: {fileID: 378731720}
   - component: {fileID: 378731719}
   m_Layer: 0
-  m_Name: Breakable_Wall (19)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4709,7 +4713,7 @@ GameObject:
   - component: {fileID: 397527586}
   - component: {fileID: 397527585}
   m_Layer: 0
-  m_Name: Breakable_Wall (3)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4805,7 +4809,7 @@ GameObject:
   - component: {fileID: 418253033}
   - component: {fileID: 418253032}
   m_Layer: 0
-  m_Name: Breakable_Wall (26)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4901,7 +4905,7 @@ GameObject:
   - component: {fileID: 433013470}
   - component: {fileID: 433013469}
   m_Layer: 0
-  m_Name: Breakable_Wall (115)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4997,7 +5001,7 @@ GameObject:
   - component: {fileID: 435665137}
   - component: {fileID: 435665136}
   m_Layer: 0
-  m_Name: Breakable_Wall (21)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5093,7 +5097,7 @@ GameObject:
   - component: {fileID: 441354437}
   - component: {fileID: 441354436}
   m_Layer: 0
-  m_Name: Breakable_Wall (89)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5189,7 +5193,7 @@ GameObject:
   - component: {fileID: 465740642}
   - component: {fileID: 465740641}
   m_Layer: 0
-  m_Name: Breakable_Wall (121)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5285,7 +5289,7 @@ GameObject:
   - component: {fileID: 473977188}
   - component: {fileID: 473977187}
   m_Layer: 0
-  m_Name: Breakable_Wall (113)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5381,7 +5385,7 @@ GameObject:
   - component: {fileID: 481602715}
   - component: {fileID: 481602714}
   m_Layer: 0
-  m_Name: Breakable_Wall (65)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5477,7 +5481,7 @@ GameObject:
   - component: {fileID: 485989197}
   - component: {fileID: 485989196}
   m_Layer: 0
-  m_Name: Breakable_Wall (102)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5573,7 +5577,7 @@ GameObject:
   - component: {fileID: 499807296}
   - component: {fileID: 499807295}
   m_Layer: 0
-  m_Name: Wall5 (24)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5669,7 +5673,7 @@ GameObject:
   - component: {fileID: 500415518}
   - component: {fileID: 500415517}
   m_Layer: 0
-  m_Name: Breakable_Wall (28)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5846,10 +5850,11 @@ MonoBehaviour:
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
     Value: 0
+    m_SpeedMode: 0
     m_MaxSpeed: 700
     m_AccelTime: 0.1
     m_DecelTime: 0.1
-    m_InputAxisName: Mouse X
+    m_InputAxisName: 
     m_InputAxisValue: 0
     m_InvertInput: 0
     m_MinValue: -180
@@ -5890,7 +5895,7 @@ GameObject:
   - component: {fileID: 518888955}
   - component: {fileID: 518888954}
   m_Layer: 0
-  m_Name: Breakable_Wall (91)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5986,7 +5991,7 @@ GameObject:
   - component: {fileID: 529300929}
   - component: {fileID: 529300928}
   m_Layer: 0
-  m_Name: Breakable_Wall (105)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6112,7 +6117,10 @@ MonoBehaviour:
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
+    ModeOverride: 0
     LensShift: {x: 0, y: 0}
+    GateFit: 0
+    m_SensorSize: {x: 1.0970266, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6128,8 +6136,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534511750}
-  m_LocalRotation: {x: 0.24121471, y: 0.664692, z: -0.24121459, w: 0.66469216}
-  m_LocalPosition: {x: 9.757334, y: 3.3000007, z: 15.81636}
+  m_LocalRotation: {x: -0, y: 0.9400165, z: -0.34112903, w: 0}
+  m_LocalPosition: {x: 14.7009735, y: 3.3000007, z: 20.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 930926622}
@@ -6149,7 +6157,7 @@ GameObject:
   - component: {fileID: 544956354}
   - component: {fileID: 544956353}
   m_Layer: 0
-  m_Name: Breakable_Wall (13)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6232,103 +6240,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544956351}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &560949042
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 560949043}
-  - component: {fileID: 560949046}
-  - component: {fileID: 560949045}
-  - component: {fileID: 560949044}
-  m_Layer: 0
-  m_Name: Cylinder (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &560949043
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560949042}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.6, z: 0.1}
-  m_Children: []
-  m_Father: {fileID: 1911700837}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &560949044
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560949042}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!23 &560949045
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560949042}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: ac02e0546055b854f8600e1708139ff8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &560949046
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560949042}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &563405503
 GameObject:
   m_ObjectHideFlags: 0
@@ -6342,7 +6253,7 @@ GameObject:
   - component: {fileID: 563405506}
   - component: {fileID: 563405505}
   m_Layer: 0
-  m_Name: Breakable_Wall (48)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6438,7 +6349,7 @@ GameObject:
   - component: {fileID: 564757764}
   - component: {fileID: 564757763}
   m_Layer: 0
-  m_Name: Wall5 (8)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6534,7 +6445,7 @@ GameObject:
   - component: {fileID: 570530404}
   - component: {fileID: 570530403}
   m_Layer: 0
-  m_Name: Breakable_Wall (51)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6630,7 +6541,7 @@ GameObject:
   - component: {fileID: 574396524}
   - component: {fileID: 574396523}
   m_Layer: 0
-  m_Name: Wall5 (30)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6726,7 +6637,7 @@ GameObject:
   - component: {fileID: 600985200}
   - component: {fileID: 600985199}
   m_Layer: 0
-  m_Name: Breakable_Wall (114)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6822,7 +6733,7 @@ GameObject:
   - component: {fileID: 601004395}
   - component: {fileID: 601004394}
   m_Layer: 0
-  m_Name: Breakable_Wall (107)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6918,7 +6829,7 @@ GameObject:
   - component: {fileID: 609523817}
   - component: {fileID: 609523816}
   m_Layer: 0
-  m_Name: Wall5 (41)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7014,7 +6925,7 @@ GameObject:
   - component: {fileID: 619744219}
   - component: {fileID: 619744218}
   m_Layer: 0
-  m_Name: Breakable_Wall (62)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7110,7 +7021,7 @@ GameObject:
   - component: {fileID: 638654458}
   - component: {fileID: 638654457}
   m_Layer: 0
-  m_Name: Breakable_Wall (83)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7206,7 +7117,7 @@ GameObject:
   - component: {fileID: 640140714}
   - component: {fileID: 640140713}
   m_Layer: 0
-  m_Name: Wall5 (50)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7302,7 +7213,7 @@ GameObject:
   - component: {fileID: 642469676}
   - component: {fileID: 642469675}
   m_Layer: 0
-  m_Name: Breakable_Wall (27)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7494,7 +7405,7 @@ GameObject:
   - component: {fileID: 652697608}
   - component: {fileID: 652697607}
   m_Layer: 0
-  m_Name: Wall5 (59)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7590,7 +7501,7 @@ GameObject:
   - component: {fileID: 675729689}
   - component: {fileID: 675729688}
   m_Layer: 0
-  m_Name: Breakable_Wall (71)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7767,10 +7678,11 @@ MonoBehaviour:
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
     Value: 0
+    m_SpeedMode: 0
     m_MaxSpeed: 700
     m_AccelTime: 0.1
     m_DecelTime: 0.1
-    m_InputAxisName: Mouse X
+    m_InputAxisName: 
     m_InputAxisValue: 0
     m_InvertInput: 0
     m_MinValue: -180
@@ -7811,7 +7723,7 @@ GameObject:
   - component: {fileID: 697919408}
   - component: {fileID: 697919407}
   m_Layer: 0
-  m_Name: Wall5 (64)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7986,7 +7898,7 @@ GameObject:
   - component: {fileID: 703075015}
   - component: {fileID: 703075014}
   m_Layer: 0
-  m_Name: Breakable_Wall (22)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8207,7 +8119,7 @@ GameObject:
   - component: {fileID: 705961235}
   - component: {fileID: 705961234}
   m_Layer: 0
-  m_Name: Wall5 (57)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8303,7 +8215,7 @@ GameObject:
   - component: {fileID: 707231341}
   - component: {fileID: 707231340}
   m_Layer: 0
-  m_Name: Breakable_Wall (30)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8399,7 +8311,7 @@ GameObject:
   - component: {fileID: 708528661}
   - component: {fileID: 708528660}
   m_Layer: 0
-  m_Name: Wall5 (45)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8495,7 +8407,7 @@ GameObject:
   - component: {fileID: 718840147}
   - component: {fileID: 718840146}
   m_Layer: 0
-  m_Name: Breakable_Wall (80)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8591,7 +8503,7 @@ GameObject:
   - component: {fileID: 721356473}
   - component: {fileID: 721356472}
   m_Layer: 0
-  m_Name: Breakable_Wall (69)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8687,7 +8599,7 @@ GameObject:
   - component: {fileID: 740906423}
   - component: {fileID: 740906422}
   m_Layer: 0
-  m_Name: Wall5 (18)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8783,7 +8695,7 @@ GameObject:
   - component: {fileID: 744361551}
   - component: {fileID: 744361550}
   m_Layer: 0
-  m_Name: Breakable_Wall (133)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8879,7 +8791,7 @@ GameObject:
   - component: {fileID: 748931784}
   - component: {fileID: 748931783}
   m_Layer: 0
-  m_Name: Breakable_Wall (132)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9056,10 +8968,11 @@ MonoBehaviour:
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
     Value: 0
+    m_SpeedMode: 0
     m_MaxSpeed: 700
     m_AccelTime: 0.1
     m_DecelTime: 0.1
-    m_InputAxisName: Mouse X
+    m_InputAxisName: 
     m_InputAxisValue: 0
     m_InvertInput: 0
     m_MinValue: -180
@@ -9100,7 +9013,7 @@ GameObject:
   - component: {fileID: 800198186}
   - component: {fileID: 800198185}
   m_Layer: 0
-  m_Name: Breakable_Wall (126)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9196,7 +9109,7 @@ GameObject:
   - component: {fileID: 813619635}
   - component: {fileID: 813619634}
   m_Layer: 0
-  m_Name: Breakable_Wall (124)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9292,7 +9205,7 @@ GameObject:
   - component: {fileID: 815255224}
   - component: {fileID: 815255223}
   m_Layer: 0
-  m_Name: Wall5 (39)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9545,7 +9458,7 @@ GameObject:
   - component: {fileID: 850158200}
   - component: {fileID: 850158199}
   m_Layer: 0
-  m_Name: Breakable_Wall (59)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9641,7 +9554,7 @@ GameObject:
   - component: {fileID: 869596976}
   - component: {fileID: 869596975}
   m_Layer: 0
-  m_Name: Wall5 (36)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9737,7 +9650,7 @@ GameObject:
   - component: {fileID: 871217830}
   - component: {fileID: 871217829}
   m_Layer: 0
-  m_Name: Breakable_Wall (64)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9833,7 +9746,7 @@ GameObject:
   - component: {fileID: 885217768}
   - component: {fileID: 885217767}
   m_Layer: 0
-  m_Name: Breakable_Wall (8)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10029,7 +9942,7 @@ GameObject:
   - component: {fileID: 897914074}
   - component: {fileID: 897914073}
   m_Layer: 0
-  m_Name: Breakable_Wall (70)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10125,7 +10038,7 @@ GameObject:
   - component: {fileID: 918687119}
   - component: {fileID: 918687118}
   m_Layer: 0
-  m_Name: Breakable_Wall (52)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10221,7 +10134,7 @@ GameObject:
   - component: {fileID: 920984165}
   - component: {fileID: 920984164}
   m_Layer: 0
-  m_Name: Wall5 (55)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10317,7 +10230,7 @@ GameObject:
   - component: {fileID: 923368768}
   - component: {fileID: 923368767}
   m_Layer: 0
-  m_Name: Breakable_Wall (73)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10413,7 +10326,7 @@ GameObject:
   - component: {fileID: 923402455}
   - component: {fileID: 923402454}
   m_Layer: 0
-  m_Name: Breakable_Wall (118)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10509,7 +10422,7 @@ GameObject:
   - component: {fileID: 928265527}
   - component: {fileID: 928265526}
   m_Layer: 0
-  m_Name: Wall5 (33)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10685,7 +10598,8 @@ MonoBehaviour:
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
-    Value: -90
+    Value: 0
+    m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
@@ -10762,7 +10676,10 @@ MonoBehaviour:
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
+    ModeOverride: 0
     LensShift: {x: 0, y: 0}
+    GateFit: 0
+    m_SensorSize: {x: 1.0970266, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -10772,6 +10689,7 @@ MonoBehaviour:
   m_LegacyBlendHint: 0
   m_YAxis:
     Value: 0.5
+    m_SpeedMode: 0
     m_MaxSpeed: 8
     m_AccelTime: 0.2
     m_DecelTime: 0.1
@@ -10795,6 +10713,7 @@ MonoBehaviour:
     m_LegacyVelocityFilterStrength: -1
   m_XAxis:
     Value: 0
+    m_SpeedMode: 0
     m_MaxSpeed: 700
     m_AccelTime: 0.1
     m_DecelTime: 0.1
@@ -10960,8 +10879,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.23741566, y: 0.5999189, z: -0.19264586, w: 0.73933667}
-  m_LocalPosition: {x: 12.1, y: 2.4201322, z: 13.600082}
+  m_LocalRotation: {x: 0.08568454, y: 0.6499729, z: -0.07411199, w: 0.7514658}
+  m_LocalPosition: {x: 9.1, y: 2.2555425, z: 13.286537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 58949066}
@@ -11045,6 +10964,7 @@ MonoBehaviour:
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
   m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
     m_Time: 2
@@ -11170,7 +11090,7 @@ GameObject:
   - component: {fileID: 968521193}
   - component: {fileID: 968521192}
   m_Layer: 0
-  m_Name: Breakable_Wall (109)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11266,7 +11186,7 @@ GameObject:
   - component: {fileID: 991234690}
   - component: {fileID: 991234689}
   m_Layer: 0
-  m_Name: Breakable_Wall (45)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11362,7 +11282,7 @@ GameObject:
   - component: {fileID: 993189500}
   - component: {fileID: 993189499}
   m_Layer: 0
-  m_Name: Wall5 (48)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11458,7 +11378,7 @@ GameObject:
   - component: {fileID: 993966592}
   - component: {fileID: 993966591}
   m_Layer: 0
-  m_Name: Breakable_Wall (97)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11554,7 +11474,7 @@ GameObject:
   - component: {fileID: 1008990273}
   - component: {fileID: 1008990272}
   m_Layer: 0
-  m_Name: Breakable_Wall (77)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11650,7 +11570,7 @@ GameObject:
   - component: {fileID: 1021057669}
   - component: {fileID: 1021057668}
   m_Layer: 0
-  m_Name: Breakable_Wall (46)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11746,7 +11666,7 @@ GameObject:
   - component: {fileID: 1023593434}
   - component: {fileID: 1023593433}
   m_Layer: 0
-  m_Name: Wall5 (21)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11842,7 +11762,7 @@ GameObject:
   - component: {fileID: 1024668644}
   - component: {fileID: 1024668643}
   m_Layer: 0
-  m_Name: Wall5 (14)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11938,7 +11858,7 @@ GameObject:
   - component: {fileID: 1039451851}
   - component: {fileID: 1039451850}
   m_Layer: 0
-  m_Name: Breakable_Wall (50)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12034,7 +11954,7 @@ GameObject:
   - component: {fileID: 1044925892}
   - component: {fileID: 1044925891}
   m_Layer: 0
-  m_Name: Wall5 (17)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12130,7 +12050,7 @@ GameObject:
   - component: {fileID: 1046781670}
   - component: {fileID: 1046781669}
   m_Layer: 0
-  m_Name: Breakable_Wall (78)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12226,7 +12146,7 @@ GameObject:
   - component: {fileID: 1051048228}
   - component: {fileID: 1051048227}
   m_Layer: 0
-  m_Name: Wall5 (49)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12322,7 +12242,7 @@ GameObject:
   - component: {fileID: 1051798781}
   - component: {fileID: 1051798780}
   m_Layer: 0
-  m_Name: Breakable_Wall (60)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12418,7 +12338,7 @@ GameObject:
   - component: {fileID: 1053633486}
   - component: {fileID: 1053633485}
   m_Layer: 0
-  m_Name: Breakable_Wall (111)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12514,7 +12434,7 @@ GameObject:
   - component: {fileID: 1056271049}
   - component: {fileID: 1056271048}
   m_Layer: 0
-  m_Name: Wall5 (31)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12610,7 +12530,7 @@ GameObject:
   - component: {fileID: 1057912349}
   - component: {fileID: 1057912348}
   m_Layer: 0
-  m_Name: Wall5 (25)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12706,7 +12626,7 @@ GameObject:
   - component: {fileID: 1084724701}
   - component: {fileID: 1084724700}
   m_Layer: 0
-  m_Name: Breakable_Wall (24)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12802,7 +12722,7 @@ GameObject:
   - component: {fileID: 1085399148}
   - component: {fileID: 1085399147}
   m_Layer: 0
-  m_Name: Wall5 (54)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12898,7 +12818,7 @@ GameObject:
   - component: {fileID: 1100291964}
   - component: {fileID: 1100291963}
   m_Layer: 0
-  m_Name: Wall5 (60)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12994,7 +12914,7 @@ GameObject:
   - component: {fileID: 1106788714}
   - component: {fileID: 1106788713}
   m_Layer: 0
-  m_Name: Breakable_Wall (49)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13090,7 +13010,7 @@ GameObject:
   - component: {fileID: 1112441803}
   - component: {fileID: 1112441802}
   m_Layer: 0
-  m_Name: Breakable_Wall (14)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13186,7 +13106,7 @@ GameObject:
   - component: {fileID: 1159148715}
   - component: {fileID: 1159148714}
   m_Layer: 0
-  m_Name: Breakable_Wall (18)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13282,7 +13202,7 @@ GameObject:
   - component: {fileID: 1171462603}
   - component: {fileID: 1171462602}
   m_Layer: 0
-  m_Name: Breakable_Wall (128)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13378,7 +13298,7 @@ GameObject:
   - component: {fileID: 1181982149}
   - component: {fileID: 1181982148}
   m_Layer: 0
-  m_Name: Breakable_Wall (17)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13504,7 +13424,10 @@ MonoBehaviour:
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
+    ModeOverride: 0
     LensShift: {x: 0, y: 0}
+    GateFit: 0
+    m_SensorSize: {x: 1, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -13541,7 +13464,7 @@ GameObject:
   - component: {fileID: 1184762943}
   - component: {fileID: 1184762942}
   m_Layer: 0
-  m_Name: Breakable_Wall (87)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13637,7 +13560,7 @@ GameObject:
   - component: {fileID: 1201552077}
   - component: {fileID: 1201552076}
   m_Layer: 0
-  m_Name: Wall5 (46)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13733,7 +13656,7 @@ GameObject:
   - component: {fileID: 1208632176}
   - component: {fileID: 1208632175}
   m_Layer: 0
-  m_Name: Wall5 (15)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13829,7 +13752,7 @@ GameObject:
   - component: {fileID: 1209677485}
   - component: {fileID: 1209677484}
   m_Layer: 0
-  m_Name: Wall5 (47)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13925,7 +13848,7 @@ GameObject:
   - component: {fileID: 1210360257}
   - component: {fileID: 1210360256}
   m_Layer: 0
-  m_Name: Breakable_Wall (15)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14021,7 +13944,7 @@ GameObject:
   - component: {fileID: 1210389032}
   - component: {fileID: 1210389031}
   m_Layer: 0
-  m_Name: Wall5 (1)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14117,7 +14040,7 @@ GameObject:
   - component: {fileID: 1214038184}
   - component: {fileID: 1214038183}
   m_Layer: 0
-  m_Name: Breakable_Wall (116)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14213,7 +14136,7 @@ GameObject:
   - component: {fileID: 1242604951}
   - component: {fileID: 1242604950}
   m_Layer: 0
-  m_Name: Breakable_Wall (103)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14309,7 +14232,7 @@ GameObject:
   - component: {fileID: 1246125468}
   - component: {fileID: 1246125467}
   m_Layer: 0
-  m_Name: Breakable_Wall (86)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14405,7 +14328,7 @@ GameObject:
   - component: {fileID: 1281586523}
   - component: {fileID: 1281586522}
   m_Layer: 0
-  m_Name: Wall5 (2)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14597,7 +14520,7 @@ GameObject:
   - component: {fileID: 1295545348}
   - component: {fileID: 1295545347}
   m_Layer: 0
-  m_Name: Breakable_Wall (11)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14693,7 +14616,7 @@ GameObject:
   - component: {fileID: 1298919951}
   - component: {fileID: 1298919950}
   m_Layer: 0
-  m_Name: Breakable_Wall (23)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14885,7 +14808,7 @@ GameObject:
   - component: {fileID: 1304822793}
   - component: {fileID: 1304822792}
   m_Layer: 0
-  m_Name: Breakable_Wall (41)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14981,7 +14904,7 @@ GameObject:
   - component: {fileID: 1319755176}
   - component: {fileID: 1319755175}
   m_Layer: 0
-  m_Name: Wall5 (43)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15077,7 +15000,7 @@ GameObject:
   - component: {fileID: 1332071831}
   - component: {fileID: 1332071830}
   m_Layer: 0
-  m_Name: Breakable_Wall (20)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15173,7 +15096,7 @@ GameObject:
   - component: {fileID: 1332851362}
   - component: {fileID: 1332851361}
   m_Layer: 0
-  m_Name: Breakable_Wall (10)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15269,7 +15192,7 @@ GameObject:
   - component: {fileID: 1332872770}
   - component: {fileID: 1332872769}
   m_Layer: 0
-  m_Name: Breakable_Wall (82)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15365,7 +15288,7 @@ GameObject:
   - component: {fileID: 1334086472}
   - component: {fileID: 1334086471}
   m_Layer: 0
-  m_Name: Breakable_Wall (129)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15461,7 +15384,7 @@ GameObject:
   - component: {fileID: 1339595344}
   - component: {fileID: 1339595343}
   m_Layer: 0
-  m_Name: Wall5 (5)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15557,7 +15480,7 @@ GameObject:
   - component: {fileID: 1345506639}
   - component: {fileID: 1345506638}
   m_Layer: 0
-  m_Name: Breakable_Wall (131)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15653,7 +15576,7 @@ GameObject:
   - component: {fileID: 1370144113}
   - component: {fileID: 1370144112}
   m_Layer: 0
-  m_Name: Breakable_Wall (38)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15749,7 +15672,7 @@ GameObject:
   - component: {fileID: 1384352317}
   - component: {fileID: 1384352316}
   m_Layer: 0
-  m_Name: Wall5 (19)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15845,7 +15768,7 @@ GameObject:
   - component: {fileID: 1388152221}
   - component: {fileID: 1388152220}
   m_Layer: 0
-  m_Name: Breakable_Wall (33)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15941,7 +15864,7 @@ GameObject:
   - component: {fileID: 1401811105}
   - component: {fileID: 1401811104}
   m_Layer: 0
-  m_Name: Breakable_Wall (108)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16037,7 +15960,7 @@ GameObject:
   - component: {fileID: 1407472771}
   - component: {fileID: 1407472770}
   m_Layer: 0
-  m_Name: Breakable_Wall (4)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16133,7 +16056,7 @@ GameObject:
   - component: {fileID: 1411994868}
   - component: {fileID: 1411994867}
   m_Layer: 0
-  m_Name: Breakable_Wall (9)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16229,7 +16152,7 @@ GameObject:
   - component: {fileID: 1413684356}
   - component: {fileID: 1413684355}
   m_Layer: 0
-  m_Name: Wall5 (27)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16325,7 +16248,7 @@ GameObject:
   - component: {fileID: 1416715651}
   - component: {fileID: 1416715650}
   m_Layer: 0
-  m_Name: Breakable_Wall (34)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16421,7 +16344,7 @@ GameObject:
   - component: {fileID: 1449460632}
   - component: {fileID: 1449460631}
   m_Layer: 0
-  m_Name: Breakable_Wall (92)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16517,7 +16440,7 @@ GameObject:
   - component: {fileID: 1473781556}
   - component: {fileID: 1473781555}
   m_Layer: 0
-  m_Name: Wall5 (37)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16613,7 +16536,7 @@ GameObject:
   - component: {fileID: 1478390934}
   - component: {fileID: 1478390933}
   m_Layer: 0
-  m_Name: Breakable_Wall (84)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16709,7 +16632,7 @@ GameObject:
   - component: {fileID: 1484329330}
   - component: {fileID: 1484329329}
   m_Layer: 0
-  m_Name: Breakable_Wall (61)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17682,7 +17605,7 @@ GameObject:
   - component: {fileID: 1504564425}
   - component: {fileID: 1504564424}
   m_Layer: 0
-  m_Name: Wall5 (35)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17778,7 +17701,7 @@ GameObject:
   - component: {fileID: 1515903691}
   - component: {fileID: 1515903690}
   m_Layer: 0
-  m_Name: Breakable_Wall (90)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17874,7 +17797,7 @@ GameObject:
   - component: {fileID: 1521315734}
   - component: {fileID: 1521315733}
   m_Layer: 0
-  m_Name: Breakable_Wall (25)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17970,7 +17893,7 @@ GameObject:
   - component: {fileID: 1530417141}
   - component: {fileID: 1530417140}
   m_Layer: 0
-  m_Name: Wall5 (26)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18103,7 +18026,10 @@ MonoBehaviour:
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
+    ModeOverride: 0
     LensShift: {x: 0, y: 0}
+    GateFit: 0
+    m_SensorSize: {x: 1.0970266, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -18119,7 +18045,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551315835}
-  m_LocalRotation: {x: 0.22396517, y: 0.6033146, z: -0.1817292, w: 0.7435225}
+  m_LocalRotation: {x: 0.072037764, y: 0.6512104, z: -0.06230835, w: 0.75289655}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -18140,7 +18066,7 @@ GameObject:
   - component: {fileID: 1557432097}
   - component: {fileID: 1557432096}
   m_Layer: 0
-  m_Name: Wall5 (20)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18332,7 +18258,7 @@ GameObject:
   - component: {fileID: 1581875164}
   - component: {fileID: 1581875163}
   m_Layer: 0
-  m_Name: Wall5 (52)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18465,7 +18391,10 @@ MonoBehaviour:
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
+    ModeOverride: 0
     LensShift: {x: 0, y: 0}
+    GateFit: 0
+    m_SensorSize: {x: 1.0970266, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -18481,7 +18410,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584003992}
-  m_LocalRotation: {x: 0.23741627, y: 0.59991866, z: -0.1926451, w: 0.73933685}
+  m_LocalRotation: {x: 0.085684545, y: 0.64997286, z: -0.074112, w: 0.7514658}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -18502,7 +18431,7 @@ GameObject:
   - component: {fileID: 1585514224}
   - component: {fileID: 1585514223}
   m_Layer: 0
-  m_Name: Wall5 (10)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18598,7 +18527,7 @@ GameObject:
   - component: {fileID: 1595455404}
   - component: {fileID: 1595455403}
   m_Layer: 0
-  m_Name: Breakable_Wall (123)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18694,7 +18623,7 @@ GameObject:
   - component: {fileID: 1600544087}
   - component: {fileID: 1600544086}
   m_Layer: 0
-  m_Name: Breakable_Wall (93)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18790,7 +18719,7 @@ GameObject:
   - component: {fileID: 1602662145}
   - component: {fileID: 1602662144}
   m_Layer: 0
-  m_Name: Breakable_Wall (56)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18965,7 +18894,7 @@ GameObject:
   - component: {fileID: 1630134715}
   - component: {fileID: 1630134714}
   m_Layer: 0
-  m_Name: Wall5 (22)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19061,7 +18990,7 @@ GameObject:
   - component: {fileID: 1640839747}
   - component: {fileID: 1640839746}
   m_Layer: 0
-  m_Name: Wall5 (44)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19157,7 +19086,7 @@ GameObject:
   - component: {fileID: 1641804275}
   - component: {fileID: 1641804274}
   m_Layer: 0
-  m_Name: Breakable_Wall (57)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19304,7 +19233,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1653547162
 GameObject:
@@ -19319,7 +19248,7 @@ GameObject:
   - component: {fileID: 1653547165}
   - component: {fileID: 1653547164}
   m_Layer: 0
-  m_Name: Wall5 (16)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19494,7 +19423,7 @@ GameObject:
   - component: {fileID: 1681689597}
   - component: {fileID: 1681689596}
   m_Layer: 0
-  m_Name: Wall5 (6)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19654,7 +19583,7 @@ GameObject:
   - component: {fileID: 1688554687}
   - component: {fileID: 1688554686}
   m_Layer: 0
-  m_Name: Breakable_Wall (67)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19750,7 +19679,7 @@ GameObject:
   - component: {fileID: 1689959735}
   - component: {fileID: 1689959734}
   m_Layer: 0
-  m_Name: Breakable_Wall (16)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19846,7 +19775,7 @@ GameObject:
   - component: {fileID: 1707541609}
   - component: {fileID: 1707541608}
   m_Layer: 0
-  m_Name: Breakable_Wall (58)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19942,7 +19871,7 @@ GameObject:
   - component: {fileID: 1709839692}
   - component: {fileID: 1709839691}
   m_Layer: 0
-  m_Name: Breakable_Wall (74)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20038,7 +19967,7 @@ GameObject:
   - component: {fileID: 1785314745}
   - component: {fileID: 1785314744}
   m_Layer: 0
-  m_Name: Breakable_Wall (31)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20134,7 +20063,7 @@ GameObject:
   - component: {fileID: 1788606501}
   - component: {fileID: 1788606500}
   m_Layer: 0
-  m_Name: Breakable_Wall (88)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20230,7 +20159,7 @@ GameObject:
   - component: {fileID: 1790630191}
   - component: {fileID: 1790630190}
   m_Layer: 0
-  m_Name: Breakable_Wall (29)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20328,7 +20257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1794139961
 Transform:
   m_ObjectHideFlags: 0
@@ -20490,7 +20419,7 @@ GameObject:
   - component: {fileID: 1814277398}
   - component: {fileID: 1814277397}
   m_Layer: 0
-  m_Name: Breakable_Wall (94)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20586,7 +20515,7 @@ GameObject:
   - component: {fileID: 1828660033}
   - component: {fileID: 1828660032}
   m_Layer: 0
-  m_Name: Breakable_Wall (63)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20682,7 +20611,7 @@ GameObject:
   - component: {fileID: 1833529561}
   - component: {fileID: 1833529560}
   m_Layer: 0
-  m_Name: Breakable_Wall (98)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20778,7 +20707,7 @@ GameObject:
   - component: {fileID: 1834802809}
   - component: {fileID: 1834802808}
   m_Layer: 0
-  m_Name: Wall5 (9)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20874,7 +20803,7 @@ GameObject:
   - component: {fileID: 1842129567}
   - component: {fileID: 1842129566}
   m_Layer: 0
-  m_Name: Breakable_Wall (47)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20970,7 +20899,7 @@ GameObject:
   - component: {fileID: 1849166154}
   - component: {fileID: 1849166153}
   m_Layer: 0
-  m_Name: Wall5 (38)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21066,7 +20995,7 @@ GameObject:
   - component: {fileID: 1850473484}
   - component: {fileID: 1850473483}
   m_Layer: 0
-  m_Name: Breakable_Wall (5)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21162,7 +21091,7 @@ GameObject:
   - component: {fileID: 1853696803}
   - component: {fileID: 1853696802}
   m_Layer: 0
-  m_Name: Breakable_Wall (54)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21258,7 +21187,7 @@ GameObject:
   - component: {fileID: 1860186164}
   - component: {fileID: 1860186163}
   m_Layer: 0
-  m_Name: Wall5 (32)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21354,7 +21283,7 @@ GameObject:
   - component: {fileID: 1870133308}
   - component: {fileID: 1870133307}
   m_Layer: 0
-  m_Name: Wall5 (29)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21450,7 +21379,7 @@ GameObject:
   - component: {fileID: 1874288990}
   - component: {fileID: 1874288989}
   m_Layer: 0
-  m_Name: Breakable_Wall (125)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21546,7 +21475,7 @@ GameObject:
   - component: {fileID: 1884307335}
   - component: {fileID: 1884307334}
   m_Layer: 0
-  m_Name: Breakable_Wall (100)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21629,124 +21558,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884307332}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1911700833
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1911700837}
-  - component: {fileID: 1911700836}
-  - component: {fileID: 1911700835}
-  - component: {fileID: 1911700834}
-  - component: {fileID: 1911700838}
-  m_Layer: 0
-  m_Name: Bomb
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!135 &1911700834
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911700833}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1911700835
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911700833}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f9c355fcf6ad34740a9044418762e802, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1911700836
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911700833}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1911700837
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911700833}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.45, y: 1.36, z: 14.56}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_Children:
-  - {fileID: 2130345576}
-  - {fileID: 560949043}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1911700838
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911700833}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d2502d132871b01448931dd6e3f7096e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1921495088
 GameObject:
   m_ObjectHideFlags: 0
@@ -21760,7 +21571,7 @@ GameObject:
   - component: {fileID: 1921495091}
   - component: {fileID: 1921495090}
   m_Layer: 0
-  m_Name: Breakable_Wall (37)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21856,7 +21667,7 @@ GameObject:
   - component: {fileID: 1925043897}
   - component: {fileID: 1925043896}
   m_Layer: 0
-  m_Name: Breakable_Wall (2)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21952,7 +21763,7 @@ GameObject:
   - component: {fileID: 1925534041}
   - component: {fileID: 1925534040}
   m_Layer: 0
-  m_Name: Breakable_Wall (6)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22048,7 +21859,7 @@ GameObject:
   - component: {fileID: 1925743622}
   - component: {fileID: 1925743621}
   m_Layer: 0
-  m_Name: Breakable_Wall (120)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22144,7 +21955,7 @@ GameObject:
   - component: {fileID: 1930641448}
   - component: {fileID: 1930641447}
   m_Layer: 0
-  m_Name: Wall5 (11)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22318,7 +22129,7 @@ Transform:
   m_GameObject: {fileID: 1938142902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.57, z: 0}
-  m_LocalScale: {x: 32, y: 1, z: 32}
+  m_LocalScale: {x: 31, y: 1, z: 31}
   m_Children: []
   m_Father: {fileID: 893670107}
   m_RootOrder: 0
@@ -22336,7 +22147,7 @@ GameObject:
   - component: {fileID: 1939182732}
   - component: {fileID: 1939182731}
   m_Layer: 0
-  m_Name: Breakable_Wall (42)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22432,7 +22243,7 @@ GameObject:
   - component: {fileID: 1952079548}
   - component: {fileID: 1952079547}
   m_Layer: 0
-  m_Name: Breakable_Wall (127)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22528,7 +22339,7 @@ GameObject:
   - component: {fileID: 1984154511}
   - component: {fileID: 1984154510}
   m_Layer: 0
-  m_Name: Breakable_Wall (72)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22624,7 +22435,7 @@ GameObject:
   - component: {fileID: 1994507342}
   - component: {fileID: 1994507341}
   m_Layer: 0
-  m_Name: Wall5 (28)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22707,6 +22518,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994507339}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1996469020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996469021}
+  m_Layer: 0
+  m_Name: location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1996469021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996469020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5006512736820427411}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2020882810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22897,7 +22738,7 @@ GameObject:
   - component: {fileID: 2035461588}
   - component: {fileID: 2035461587}
   m_Layer: 0
-  m_Name: Breakable_Wall (39)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22993,7 +22834,7 @@ GameObject:
   - component: {fileID: 2039346427}
   - component: {fileID: 2039346426}
   m_Layer: 0
-  m_Name: Wall5 (58)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23089,7 +22930,7 @@ GameObject:
   - component: {fileID: 2043554965}
   - component: {fileID: 2043554964}
   m_Layer: 0
-  m_Name: Wall5 (53)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23185,7 +23026,7 @@ GameObject:
   - component: {fileID: 2052390339}
   - component: {fileID: 2052390338}
   m_Layer: 0
-  m_Name: Wall5 (63)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23281,7 +23122,7 @@ GameObject:
   - component: {fileID: 2087532734}
   - component: {fileID: 2087532733}
   m_Layer: 0
-  m_Name: Breakable_Wall (35)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23377,7 +23218,7 @@ GameObject:
   - component: {fileID: 2102916606}
   - component: {fileID: 2102916605}
   m_Layer: 0
-  m_Name: Breakable_Wall (55)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23473,7 +23314,7 @@ GameObject:
   - component: {fileID: 2115636397}
   - component: {fileID: 2115636396}
   m_Layer: 0
-  m_Name: Wall5 (56)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23556,103 +23397,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115636394}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2130345575
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2130345576}
-  - component: {fileID: 2130345579}
-  - component: {fileID: 2130345578}
-  - component: {fileID: 2130345577}
-  m_Layer: 0
-  m_Name: Cylinder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2130345576
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130345575}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.2, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 1911700837}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &2130345577
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130345575}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!23 &2130345578
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130345575}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 3b3481f513be77a4ab5a7fcb9d3d1e28, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &2130345579
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2130345575}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2141315924
 GameObject:
   m_ObjectHideFlags: 0
@@ -23666,7 +23410,7 @@ GameObject:
   - component: {fileID: 2141315927}
   - component: {fileID: 2141315926}
   m_Layer: 0
-  m_Name: Breakable_Wall (68)
+  m_Name: Breakable_Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23860,6 +23604,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 60c2f0e0aaa8f8d4e9d23d7e3768653b, type: 2}
+    - target: {fileID: 4757836856755875626, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
+      propertyPath: BombPrefab
+      value: 
+      objectReference: {fileID: 4287386890654400423, guid: 1a41591babae41740af390b7fe7b93e2, type: 3}
+    - target: {fileID: 4757836856755875626, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
+      propertyPath: Bombtransform
+      value: 
+      objectReference: {fileID: 1996469021}
     - target: {fileID: 4826562037691674415, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -23900,6 +23652,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 576b1082907586e489e05029e7000aaa, type: 2}
+    - target: {fileID: 8447345114822805049, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447345114822805049, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447345114822805049, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.95
+      objectReference: {fileID: 0}
     - target: {fileID: 8613443241836041114, guid: bd6ee82c5e06b3f4f86113cbf8261ae1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
