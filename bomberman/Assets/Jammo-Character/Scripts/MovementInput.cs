@@ -23,7 +23,7 @@ public class MovementInput : MonoBehaviour {
 	public bool isGrounded;
 	public bool hasbomb;
 	public float interval = 3f;
-    [Header("Animation Smoothing")]
+	[Header("Animation Smoothing")]
     [Range(0, 1f)]
     public float HorizontalAnimSmoothTime = 0.2f;
     [Range(0, 1f)]
@@ -34,7 +34,7 @@ public class MovementInput : MonoBehaviour {
     public float StopAnimTime = 0.15f;
 	public Vector3 bombpos;
 	public Quaternion expolseRot;
-
+	public GameObject[] objs;
 	public float verticalVel;
     private Vector3 moveVector;
 	[SerializeField] private GameObject BombPrefab;
@@ -47,6 +47,7 @@ public class MovementInput : MonoBehaviour {
 		anim = this.GetComponent<Animator> ();
 		cam = Camera.main;
 		controller = this.GetComponent<CharacterController> ();
+		objs = FindObjectsOfType<GameObject>();
 	}
 	
 	// Update is called once per frame
@@ -92,23 +93,67 @@ public class MovementInput : MonoBehaviour {
     {
 		Vector3 explodepos = bombpos;
 		GameObject explodeClone = Instantiate(ExplodePrefab,explodepos, expolseRot);
+        for (int i = 0; i < objs.Length; i++)
+        {
+			
+
+			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
+			{
+				objs[i].SetActive(false);
+				break;
+            }
+        }		
 		explodepos.x += 2f;
 		GameObject explodeClone1 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		for (int i = 0; i < objs.Length; i++)
+		{
+			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
+			{
+				objs[i].SetActive(false);
+				break;
+			}
+		}
 		explodepos.z += 2f;
 		explodepos.x -= 2f;
 		GameObject explodeClone2 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		for (int i = 0; i < objs.Length; i++)
+        {
+			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x))&&(Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y))&&(Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
+            {
+				objs[i].SetActive(false);
+				break;
+            }
+        }
 		explodepos.x -= 2f;
 		explodepos.z -= 2f;
 		GameObject explodeClone3 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		for (int i = 0; i < objs.Length; i++)
+        {
+			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x))&&(Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y))&&(Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
+            {
+				objs[i].SetActive(false);
+				break;
+            }
+        }
 		explodepos.z -= 2f;
 		explodepos.x += 2f;
 		GameObject explodeClone4 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		for (int i = 0; i < objs.Length; i++)
+        {
+			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x))&&(Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y))&&(Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
+            {;
+				objs[i].SetActive(false);
+				break;
+            }
+        }
 		Destroy(explodeClone, 2f);
 		Destroy(explodeClone1, 2f);
 		Destroy(explodeClone2, 2f);
 		Destroy(explodeClone3, 2f);
 		Destroy(explodeClone4, 2f);
+		
 	}
+
 
 	void PlayerMoveAndRotation() {
 		InputX = Input.GetAxis ("Horizontal");
