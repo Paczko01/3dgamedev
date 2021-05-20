@@ -23,7 +23,7 @@ public class MovementInput : MonoBehaviour {
 	public CharacterController controller;
 	public bool isGrounded;
 	public bool hasbomb;
-
+	public float interval = 3f;
     [Header("Animation Smoothing")]
     [Range(0, 1f)]
     public float HorizontalAnimSmoothTime = 0.2f;
@@ -33,10 +33,13 @@ public class MovementInput : MonoBehaviour {
     public float StartAnimTime = 0.3f;
     [Range(0, 1f)]
     public float StopAnimTime = 0.15f;
+	public Vector3 bombpos;
+	public Quaternion expolseRot;
 
-    public float verticalVel;
+	public float verticalVel;
     private Vector3 moveVector;
 	[SerializeField] private GameObject BombPrefab;
+	[SerializeField] private GameObject ExplodePrefab;
 	[SerializeField] private Transform Bombtransform;
 
 	// Use this for initialization
@@ -65,21 +68,49 @@ public class MovementInput : MonoBehaviour {
 		controller.Move(moveVector);
 		if (Input.GetKeyDown(KeyCode.Space)&& hasbomb)
 		{
-			Vector3 bombpos = Bombtransform.position;
+			bombpos = Bombtransform.position;
 			hasbomb = false;
-			//bombpos.x =1.5f* Mathf.RoundToInt(bombpos.x / 1.5f);
-			//bombpos.z =1.5f * Mathf.RoundToInt(bombpos.z/ 1.5f);
-			Invoke("setboolback", 3f);
+            bombpos.x =2f*Mathf.RoundToInt(bombpos.x/2f);
+            bombpos.z =2f*Mathf.RoundToInt(bombpos.z/2f);
+            if (bombpos.x>20f) bombpos.x = 20f;
+			if (bombpos.z > 20f) bombpos.z = 20f;
+			if (bombpos.x < -20f) bombpos.x = -20f;
+			if (bombpos.z < -20f) bombpos.z = -20f;
 			GameObject bombClone = Instantiate(BombPrefab, bombpos, Bombtransform.rotation);
+			expolseRot = Bombtransform.rotation;
+			Invoke("setboolback", 3f);
+			Invoke("explode", 3.02f);
+			
+
+			//GameObject explodeClone = Instantiate(ExplodePrefab, bombpos, Explodetransform.rotation);
+
 			Destroy(bombClone,3f);
 		}
 
 	}
 
 	private void setboolback()
-    {
+    {		
 		hasbomb = true;
     }
+	private void explode()
+    {
+		Vector3 explodepos = bombpos;
+
+        /*explodepos.x = 2f * Mathf.RoundToInt(explodepos.x / 2f)+0.75f;
+		explodepos.z = 2f * Mathf.RoundToInt(explodepos.z / 2f)+0.75f;
+        if (explodepos.x > 0f)explodepos.x-=0.75f;
+		else explodepos.x += 0.75f;
+		if (explodepos.z > 0f) explodepos.z -= 0.75f;
+		else explodepos.z += 0.75f;
+		if (explodepos.x > 20f) explodepos.x = 19.25f;
+		if (explodepos.z > 20f) explodepos.z = 19.25f;
+		if (explodepos.x < -20f) explodepos.x = -19.25f;
+		if (explodepos.z < -20f) explodepos.z = -19.25f;*/
+		GameObject explodeClone = Instantiate(ExplodePrefab,explodepos, expolseRot);
+
+	}
+
 	void PlayerMoveAndRotation() {
 		InputX = Input.GetAxis ("Horizontal");
 		InputZ = Input.GetAxis ("Vertical");
