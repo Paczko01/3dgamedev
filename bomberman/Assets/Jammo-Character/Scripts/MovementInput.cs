@@ -23,6 +23,7 @@ public class MovementInput : MonoBehaviour {
 	public bool isGrounded;
 	public bool hasbomb;
 	public float interval = 3f;
+	private int bots = 3;
 	[Header("Animation Smoothing")]
     [Range(0, 1f)]
     public float HorizontalAnimSmoothTime = 0.2f;
@@ -40,6 +41,10 @@ public class MovementInput : MonoBehaviour {
 	[SerializeField] private GameObject BombPrefab;
 	[SerializeField] private GameObject ExplodePrefab;
 	[SerializeField] private Transform Bombtransform;
+	[SerializeField] private GameObject Bot1;
+	[SerializeField] private GameObject Bot2;
+	[SerializeField] private GameObject Bot3;
+	[SerializeField] private GameObject Me;
 
 	// Use this for initialization
 	void Start () {
@@ -76,15 +81,18 @@ public class MovementInput : MonoBehaviour {
 			if (bombpos.z > 20f) bombpos.z = 20f;
 			if (bombpos.x < -20f) bombpos.x = -20f;
 			if (bombpos.z < -20f) bombpos.z = -20f;
-			GameObject bombClone = Instantiate(BombPrefab, bombpos, Bombtransform.rotation);
+			Invoke("Dropbomb", 0.5f);
 			expolseRot = Quaternion.Euler(90, 0, 0);
-			Invoke("setboolback", 3f);
-			Invoke("explode", 3.01f);
-			Destroy(bombClone,3f);
+			Invoke("setboolback", 3.5f);
+			Invoke("explode", 3.5f);
 		}
 
 	}
-
+	private void Dropbomb()
+    {
+		GameObject bombClone = Instantiate(BombPrefab, bombpos, Bombtransform.rotation);
+		Destroy(bombClone, 3f);
+	}
 	private void setboolback()
     {		
 		hasbomb = true;
@@ -92,11 +100,45 @@ public class MovementInput : MonoBehaviour {
 	private void explode()
     {
 		Vector3 explodepos = bombpos;
+		Vector3 bot1pos = Bot1.transform.position;
+		Vector3 bot2pos = Bot2.transform.position;
+		Vector3 bot3pos = Bot3.transform.position;
+		Vector3 mypos = Me.transform.position;
+		bot1pos.x = 2f * Mathf.RoundToInt(bot1pos.x / 2f);
+		bot1pos.y = 1f;
+		bot1pos.z = 2f * Mathf.RoundToInt(bot1pos.z / 2f);
+		bot2pos.x = 2f * Mathf.RoundToInt(bot2pos.x / 2f);
+		bot2pos.y = 1f;
+		bot2pos.z = 2f * Mathf.RoundToInt(bot2pos.z / 2f);
+		bot3pos.x = 2f * Mathf.RoundToInt(bot3pos.x / 2f);
+		bot3pos.y = 1f;
+		bot3pos.z = 2f * Mathf.RoundToInt(bot3pos.z / 2f);
+		mypos.x = 2f * Mathf.RoundToInt(mypos.x / 2f);
+		mypos.y = 1f;
+		mypos.z = 2f * Mathf.RoundToInt(mypos.z / 2f);
 		GameObject explodeClone = Instantiate(ExplodePrefab,explodepos, expolseRot);
-        for (int i = 0; i < objs.Length; i++)
+		if ((Mathf.RoundToInt(mypos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(mypos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(mypos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Debug.Log("MEGHALTÁL");
+			Debug.Break();
+		}
+		if ((Mathf.RoundToInt(bot1pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot1pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot1pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot1.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot2pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot2pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot2pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot2.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot3pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot3pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot3pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot3.SetActive(false);
+			bots--;
+		}
+		for (int i = 0; i < objs.Length; i++)
         {
-			
-
 			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
 			{
 				objs[i].SetActive(false);
@@ -105,6 +147,26 @@ public class MovementInput : MonoBehaviour {
         }		
 		explodepos.x += 2f;
 		GameObject explodeClone1 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		if ((Mathf.RoundToInt(mypos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(mypos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(mypos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Debug.Log("MEGHALTÁL");
+			Debug.Break();
+		}
+		if ((Mathf.RoundToInt(bot1pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot1pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot1pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot1.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot2pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot2pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot2pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot2.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot3pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot3pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot3pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot3.SetActive(false);
+			bots--;
+		}
 		for (int i = 0; i < objs.Length; i++)
 		{
 			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
@@ -116,6 +178,26 @@ public class MovementInput : MonoBehaviour {
 		explodepos.z += 2f;
 		explodepos.x -= 2f;
 		GameObject explodeClone2 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		if ((Mathf.RoundToInt(mypos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(mypos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(mypos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Debug.Log("MEGHALTÁL");
+			Debug.Break();
+		}
+		if ((Mathf.RoundToInt(bot1pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot1pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot1pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot1.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot2pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot2pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot2pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot2.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot3pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot3pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot3pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot3.SetActive(false);
+			bots--;
+		}
 		for (int i = 0; i < objs.Length; i++)
         {
 			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x))&&(Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y))&&(Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
@@ -127,6 +209,26 @@ public class MovementInput : MonoBehaviour {
 		explodepos.x -= 2f;
 		explodepos.z -= 2f;
 		GameObject explodeClone3 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		if ((Mathf.RoundToInt(mypos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(mypos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(mypos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Debug.Log("MEGHALTÁL");
+			Debug.Break();
+		}
+		if ((Mathf.RoundToInt(bot1pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot1pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot1pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot1.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot2pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot2pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot2pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot2.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot3pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot3pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot3pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot3.SetActive(false);
+			bots--;
+		}
 		for (int i = 0; i < objs.Length; i++)
         {
 			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x))&&(Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y))&&(Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
@@ -138,6 +240,26 @@ public class MovementInput : MonoBehaviour {
 		explodepos.z -= 2f;
 		explodepos.x += 2f;
 		GameObject explodeClone4 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		if ((Mathf.RoundToInt(mypos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(mypos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(mypos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Debug.Log("MEGHALTÁL");
+			Debug.Break();
+		}
+		if ((Mathf.RoundToInt(bot1pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot1pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot1pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot1.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot2pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot2pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot2pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot2.SetActive(false);
+			bots--;
+		}
+		if ((Mathf.RoundToInt(bot3pos.x) == Mathf.RoundToInt(explodepos.x)) && (Mathf.RoundToInt(bot3pos.y) == Mathf.RoundToInt(explodepos.y)) && (Mathf.RoundToInt(bot3pos.z) == Mathf.RoundToInt(explodepos.z)))
+		{
+			Bot3.SetActive(false);
+			bots--;
+		}
 		for (int i = 0; i < objs.Length; i++)
         {
 			if ((Mathf.RoundToInt(objs[i].transform.position.x) == Mathf.RoundToInt(explodepos.x))&&(Mathf.RoundToInt(objs[i].transform.position.y) == Mathf.RoundToInt(explodepos.y))&&(Mathf.RoundToInt(objs[i].transform.position.z) == Mathf.RoundToInt(explodepos.z)))
@@ -145,6 +267,11 @@ public class MovementInput : MonoBehaviour {
 				objs[i].SetActive(false);
 				break;
             }
+        }
+        if (bots==0)
+        {
+			Debug.Log("NYERTÉL");
+			Debug.Break();
         }
 		Destroy(explodeClone, 2f);
 		Destroy(explodeClone1, 2f);
