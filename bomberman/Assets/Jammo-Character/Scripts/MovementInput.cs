@@ -10,7 +10,6 @@ public class MovementInput : MonoBehaviour {
 
     public float Velocity;
     [Space]
-
 	public float InputX;
 	public float InputZ;
 	public Vector3 desiredMoveDirection;
@@ -77,13 +76,9 @@ public class MovementInput : MonoBehaviour {
 			if (bombpos.x < -20f) bombpos.x = -20f;
 			if (bombpos.z < -20f) bombpos.z = -20f;
 			GameObject bombClone = Instantiate(BombPrefab, bombpos, Bombtransform.rotation);
-			expolseRot = Bombtransform.rotation;
+			expolseRot = Quaternion.Euler(90, 0, 0);
 			Invoke("setboolback", 3f);
-			Invoke("explode", 3.02f);
-			
-
-			//GameObject explodeClone = Instantiate(ExplodePrefab, bombpos, Explodetransform.rotation);
-
+			Invoke("explode", 3.01f);
 			Destroy(bombClone,3f);
 		}
 
@@ -96,19 +91,23 @@ public class MovementInput : MonoBehaviour {
 	private void explode()
     {
 		Vector3 explodepos = bombpos;
-
-        /*explodepos.x = 2f * Mathf.RoundToInt(explodepos.x / 2f)+0.75f;
-		explodepos.z = 2f * Mathf.RoundToInt(explodepos.z / 2f)+0.75f;
-        if (explodepos.x > 0f)explodepos.x-=0.75f;
-		else explodepos.x += 0.75f;
-		if (explodepos.z > 0f) explodepos.z -= 0.75f;
-		else explodepos.z += 0.75f;
-		if (explodepos.x > 20f) explodepos.x = 19.25f;
-		if (explodepos.z > 20f) explodepos.z = 19.25f;
-		if (explodepos.x < -20f) explodepos.x = -19.25f;
-		if (explodepos.z < -20f) explodepos.z = -19.25f;*/
 		GameObject explodeClone = Instantiate(ExplodePrefab,explodepos, expolseRot);
-
+		explodepos.x += 2f;
+		GameObject explodeClone1 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		explodepos.z += 2f;
+		explodepos.x -= 2f;
+		GameObject explodeClone2 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		explodepos.x -= 2f;
+		explodepos.z -= 2f;
+		GameObject explodeClone3 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		explodepos.z -= 2f;
+		explodepos.x += 2f;
+		GameObject explodeClone4 = Instantiate(ExplodePrefab, explodepos, expolseRot);
+		Destroy(explodeClone, 2f);
+		Destroy(explodeClone1, 2f);
+		Destroy(explodeClone2, 2f);
+		Destroy(explodeClone3, 2f);
+		Destroy(explodeClone4, 2f);
 	}
 
 	void PlayerMoveAndRotation() {
