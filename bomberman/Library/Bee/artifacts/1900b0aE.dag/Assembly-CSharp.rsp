@@ -328,8 +328,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Jammo-Character/Scripts/CharacterSkinController.cs"
 "Assets/Jammo-Character/Scripts/MovementInput.cs"
-"Assets/Scripts/bombdroping.cs"
 "Assets/Scripts/bombing.cs"
+"Assets/Scripts/Bot_movements.cs"
 -langversion:8.0
 
 /deterministic
